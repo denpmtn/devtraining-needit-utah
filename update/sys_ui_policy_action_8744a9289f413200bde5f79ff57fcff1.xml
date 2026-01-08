@@ -3,6 +3,8 @@
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field>u_other</field>
+        <field_message/>
+        <field_message_type/>
         <mandatory>true</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -18,6 +20,9 @@
         <sys_updated_on>2017-02-16 19:47:12</sys_updated_on>
         <table>x_58872_needit_needit</table>
         <ui_policy display_value="NeedIt show or hide Other field">60c365289f413200bde5f79ff57fcfa9</ui_policy>
+        <value/>
+        <value_action/>
         <visible>true</visible>
     </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=8744a9289f413200bde5f79ff57fcff1"/>
 </record_update>
