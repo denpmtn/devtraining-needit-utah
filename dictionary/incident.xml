@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="email_client=true,hasWorkflow=true,live_feed=true,all_tables.query_hints=true" audit="true" db_object_id="6afed10df4a322104f3475eb2440bcc2" extends="task" label="Incident" max_length="40" name="incident" text_index="true" type="collection">
+        <element label="Number of Member(s)" max_length="40" name="x_58872_needit_number_of_member_s" type="integer"/>
+    </element>
+</database>

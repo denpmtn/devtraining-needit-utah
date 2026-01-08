@@ -6,7 +6,9 @@
         <caller_access/>
         <client_callable>true</client_callable>
         <description>Script Include to return an email address.  The calling client-side script passes a sys_id for a User table record.</description>
+        <mobile_callable>false</mobile_callable>
         <name>GetEmailAddress</name>
+        <sandbox_callable>true</sandbox_callable>
         <script><![CDATA[var GetEmailAddress = Class.create();
 // Extend the global.AbstractAjaxProcessor class
 GetEmailAddress.prototype = Object.extendsObject(global.AbstractAjaxProcessor,{
@@ -34,4 +36,15 @@ GetEmailAddress.prototype = Object.extendsObject(global.AbstractAjaxProcessor,{
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2017-03-09 00:58:22</sys_updated_on>
     </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>6e9c2dcf9f113200bde5f79ff57fcfd2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-07 17:41:30</sys_created_on>
+        <sys_id>544beee9c316f2102f2d1173e4013162</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-07 17:41:30</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>false</use_es_latest>
+    </sys_es_latest_script>
 </record_update>

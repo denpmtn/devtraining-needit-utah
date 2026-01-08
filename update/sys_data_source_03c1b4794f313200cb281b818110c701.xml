@@ -2,6 +2,7 @@
     <sys_data_source action="INSERT_OR_UPDATE">
         <batch_size/>
         <category/>
+        <connection_override_last_success_time/>
         <connection_timeout>0</connection_timeout>
         <connection_url>attachment://sys_data_source:03c1b4794f313200cb281b818110c701/needitimportdata.csv</connection_url>
         <connection_url_parameters/>
@@ -11,6 +12,7 @@
         <database_name/>
         <database_port/>
         <discard_arrays>false</discard_arrays>
+        <enable_parallel_loading>false</enable_parallel_loading>
         <expand_node_children>false</expand_node_children>
         <file_path>needitimportdata.csv</file_path>
         <file_retrieval_method>Attachment</file_retrieval_method>
@@ -36,6 +38,7 @@
         <offset/>
         <oracle_port>1521</oracle_port>
         <oracle_sid>orcl</oracle_sid>
+        <parallel_loading_script/>
         <parsing_script/>
         <properties/>
         <query>All Rows from Table</query>
@@ -46,6 +49,7 @@
         <scp_port/>
         <scp_server/>
         <scp_user_name/>
+        <sheet_name/>
         <sheet_number>1</sheet_number>
         <sql_statement/>
         <ssh_keyfile_path/>
